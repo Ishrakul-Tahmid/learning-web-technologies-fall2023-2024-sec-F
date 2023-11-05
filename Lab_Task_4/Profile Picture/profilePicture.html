@@ -1,0 +1,36 @@
+<html>
+    <Head>
+        <title>Password</title> 
+        <style>
+            form{
+                width: fit-content;
+                margin: auto;
+                padding: 20px;
+                border: solid black;
+                background-color: white;
+                box-shadow: 5px 10px rgba(0,0,0,.3);
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+        </style>
+    </Head>
+
+    <body>
+        <form method="post" action="profilePicture.php" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Profile Picture</legend>
+            <input type="file" name="profile_picture" accept="image/jpeg, image/jpg,image/png">
+            <hr>
+            <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+    </body>
+</html>
+
+
+
+  

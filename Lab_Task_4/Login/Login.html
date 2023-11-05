@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            form{
+                width: fit-content;
+                margin: auto;
+                padding: 20px;
+                border: solid black;
+                background-color: white;
+                box-shadow: 5px 10px rgba(0,0,0,.3);
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="loginCheck.php" enctype="">
+            <fieldset>
+                <legend><b>Login</b></legend>
+                Username:<input type="text" name="username" value=""><br>
+                Password:<input type="password" name="password" value=""><br>
+                    <hr>
+                    <input type="checkbox" name="rememberMe" value="">Remember me<br>
+                    <input type="submit" name="submit" value="Submit">
+                    <a href="">Forgotten Password?</a>
+            </fieldset>
+        </form>
+    </body>
+</html>
