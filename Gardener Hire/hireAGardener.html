@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Hire a gardener</title>
+        <style>
+            header {
+            text-align: center;
+            padding: 2px;
+            color: Green;
+        }
+        form{
+            width: 50%;
+            height: 80%;
+            text-align: center;
+        }
+        body {
+            color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="hireAGardener.php" enctype="multipart/form-data">
+            <fieldset>
+                <header>
+                    <h1>Hire a Gardener</h1>
+                </header>
+                
+                <input type="file" name="image" accept="image/jpeg, image/png, image/jpg"><br>
+                <h2>Please provide your information</h2><br>
+                Enter your location here:<input type="text" name="location" value=""><br>
+                Pick up date:<input type="date" name="pickupdate" value=""><br>
+                Request a gardener:<input type="text" name="gurdanerName" value=""><br>
+                Gurdaner Id:<input type="text" name="gurdanerId" value=""><br>
+                <input type="submit" name="submit" value="Submit">
+
+            </fieldset>
+        </form>
+        
+    </body>
+</html>
